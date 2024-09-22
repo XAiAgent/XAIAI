@@ -1,0 +1,6 @@
+Merge branch 'main' of https://github.com/XAiAgent/XAIAI
+
+# Conflicts:
+#	README.md
+#	scripts/generateImage.py
+#	scripts/transcribeAudio.py
