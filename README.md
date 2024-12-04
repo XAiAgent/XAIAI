@@ -228,8 +228,8 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/XAIAI.git
-   cd XAIAI
+    git clone https://github.com/your-repo/AetherAI.git
+    cd AetherAI
    ```
 
 2. Install Python dependencies:

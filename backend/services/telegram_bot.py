@@ -31,7 +31,7 @@ class TelegramAutonomousBot:
         @self.bot.message_handler(commands=['start', 'help'])
         def send_welcome(message):
             welcome_text = """
-            👋 Welcome to XAIAI Telegram Bot!
+            👋 Welcome to AetherAI Telegram Bot!
             
             I can help you create AI-powered NFTs from your ideas.
             
@@ -158,7 +158,7 @@ class TelegramAutonomousBot:
 💎 **NFT Minted**: {result['nft_mint_address']}
 🔍 **Explorer**: [View on Solana Explorer]({result['explorer_url']})
 
-Your creation has been successfully processed through the full XAIAI pipeline!"""
+Your creation has been successfully processed through the full AetherAI pipeline!"""
             )
             
             # Also send the image
@@ -256,7 +256,7 @@ Your voice has been transformed into an NFT through our complete AI pipeline!"""
     
     def start_bot(self):
         """Start the Telegram bot"""
-        print("🤖 Starting XAIAI Telegram Autonomous Bot...")
+        print("🤖 Starting AetherAI Telegram Autonomous Bot...")
         self.bot.infinity_polling()
 
 # Function to create and start the bot
