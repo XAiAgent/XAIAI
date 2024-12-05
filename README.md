@@ -1,3 +1,5 @@
+connect on https://x.com/XAIdotfun
+
 # XAIAI: Bridging AI and Blockchain
 
 XAIAI is an innovative project that combines artificial intelligence (AI) with blockchain technology to create tools for engagement and fun. This project leverages AI for generating images and processing audio, integrates Solana blockchain for NFT creation, and includes a modern frontend to interact with these features.
