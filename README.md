@@ -2,7 +2,7 @@ connect on https://x.com/XAIdotfun
 
 # XAIAI: Bridging AI and Blockchain
 
-XAIAI is an innovative project that combines artificial intelligence (AI) with blockchain technology to create tools for engagement and fun. This project leverages AI for generating images and processing audio, integrates Solana blockchain for NFT creation, and includes a modern frontend to interact with these features.
+XAIAI is an innovative project that combines artificial intelligence (AI) with blockchain technology to create tools for engagement and fun. This project leverages AI for generating images and processing audio, integrates BSC blockchain for NFT creation, and includes a modern frontend to interact with these features.
 
 ---
 
@@ -17,7 +17,7 @@ XAIAI is an innovative project that combines artificial intelligence (AI) with b
 - Supports common audio formats such as MP3, WAV, and FLAC.
 
 ### **3. Blockchain Integration**
-- Create NFTs on the Solana blockchain.
+- Create NFTs on the BSC blockchain.
 - Use smart contracts to mint and manage NFTs.
 
 ### **4. Interactive Frontend**
@@ -33,11 +33,11 @@ XAIAI/
 │   ├── ai/
 │   │   ├── imageGeneration.py
 │   │   ├── voiceProcessing.py
-│   ├── solana/
+│   ├── BSC/
 │   │   ├── createNFT.js
-│   │   ├── solanaWallet.js
+│   │   ├── BSCWallet.js
 ├── contracts/
-│   ├── imageNFT.sol
+│   ├── imageNFT
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
@@ -57,7 +57,7 @@ XAIAI/
 
 - Python 3.9+
 - Node.js 16+
-- Solana CLI
+- BSC CLI
 - Metaplex CLI
 
 ### Backend Setup
@@ -78,7 +78,7 @@ XAIAI/
    - Add the following keys:
      ```plaintext
      OPENAI_API_KEY=your_openai_api_key
-     SOLANA_PRIVATE_KEY=your_solana_wallet_private_key
+     BSC_PRIVATE_KEY=your_BSC_wallet_private_key
      ```
 
 4. Run the Flask backend:
@@ -106,8 +106,8 @@ XAIAI/
 
 ### Smart Contracts
 
-1. Deploy the `imageNFT.sol` smart contract using your preferred Solidity toolchain.
-2. Ensure the Solana wallet is funded with SOL for transaction fees.
+1. Deploy the `imageNFT` smart contract using your preferred idity toolchain.
+2. Ensure the BSC wallet is funded with  for transaction fees.
 
 ---
 
@@ -122,7 +122,7 @@ XAIAI/
 - View the transcribed text in real time.
 
 ### 3. Create NFTs
-- Use the NFT creation feature to mint AI-generated images on the Solana blockchain.
+- Use the NFT creation feature to mint AI-generated images on the BSC blockchain.
 
 ---
 
@@ -141,5 +141,5 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## Acknowledgments
 
 - OpenAI for their DALL-E and Whisper APIs.
-- Solana blockchain for seamless NFT integration.
+- BSC blockchain for seamless NFT integration.
 - The open-source community for providing excellent resources and tools.
