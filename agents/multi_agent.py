@@ -65,3 +65,4 @@ if __name__ == "__main__":
     result = app.invoke({"prompt": "analyze wallet for DeFi + yield"})
     print(result)
 # Crypto Oracle update
+# Claude narrative added
