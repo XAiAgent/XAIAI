@@ -1,1 +1,2 @@
 # AetherAI Daily Progress Log (Nov 2025 - May 2026)
+[2025-11-17] AetherAI daily work: oracle, agents, signals refined
