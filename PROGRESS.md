@@ -21,3 +21,4 @@
 [2025-11-29] Extra: tests + docs
 [2025-11-30] AetherAI daily work: oracle, agents, signals refined
 [2025-12-01] AetherAI daily work: oracle, agents, signals refined
+[2025-12-01] Extra: tests + docs
