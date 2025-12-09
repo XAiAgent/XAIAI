@@ -67,3 +67,4 @@ if __name__ == "__main__":
 # Crypto Oracle update
 # Claude narrative added
 # Execution + Yield agents
+# Wallet Historian + RAG
