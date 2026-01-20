@@ -97,3 +97,4 @@
 [2026-01-19] AetherAI daily work: oracle, agents, signals refined
 [2026-01-20] AetherAI daily work: oracle, agents, signals refined
 [2026-01-20] Extra: tests + docs
+[2026-01-21] AetherAI daily work: oracle, agents, signals refined
