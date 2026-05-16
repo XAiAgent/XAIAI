@@ -1,4 +1,4 @@
-print("Image Geimport openai
+import openai
 import os
 
 # Set up your OpenAI API key
@@ -26,9 +26,8 @@ if __name__ == "__main__":
     # Example of how to use the function
     prompt = "A futuristic city in the sky, with flying cars and neon lights"
     image_url = generate_image(prompt)
-    
+     
     if image_url:
         print(f"Generated Image URL: {image_url}")
     else:
         print("Failed to generate image.")
-neration logic here")

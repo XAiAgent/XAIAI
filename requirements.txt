@@ -2,3 +2,5 @@ Flask==2.3.2
 openai==0.28.0
 python-dotenv==1.0.0
 requests==2.31.0
+pytelegrambotapi==4.15.1
+supabase==2.0.5
