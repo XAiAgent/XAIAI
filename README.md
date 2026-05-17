@@ -15,7 +15,7 @@ AetherAI is a cutting-edge platform that combines artificial intelligence (AI) w
 - Supports common audio formats such as MP3, WAV, and FLAC.
 
 ### **3. Blockchain Integration**
-- Create NFTs on the BSC blockchain.
+- Create NFTs on the Solana blockchain.
 - Use smart contracts to mint and manage NFTs.
 
 ### **4. Interactive Frontend**
@@ -83,7 +83,7 @@ AetherAI/
 
 - Python 3.9+
 - Node.js 16+
-- BSC CLI
+- Solana CLI + Metaplex
 - Metaplex CLI
 - Solana CLI
 - Arweave wallet key
@@ -108,7 +108,7 @@ AetherAI/
    - Add the following keys:
      ```plaintext
      OPENAI_API_KEY=your_openai_api_key
-     BSC_PRIVATE_KEY=your_BSC_wallet_private_key
+     SOLANA_PRIVATE_KEY=your_solana_wallet_private_key
      SOLANA_PRIVATE_KEY=your_solana_wallet_private_key
      ARWEAVE_KEY=your_arweave_key.json
      TELEGRAM_BOT_TOKEN=your_telegram_bot_token
@@ -146,7 +146,7 @@ AetherAI/
 ### Smart Contracts
 
 1. Deploy the `imageNFT` smart contract using your preferred Solidity toolchain.
-2. Ensure the BSC wallet is funded with BNB for transaction fees.
+2. Ensure the Solana wallet is funded with SOL for transaction fees.
 
 ---
 
@@ -161,7 +161,7 @@ AetherAI/
 - View the transcribed text in real time.
 
 ### 3. Create NFTs
-- Use the NFT creation feature to mint AI-generated images on the BSC blockchain.
+- Use the NFT creation feature to mint AI-generated images on the Solana blockchain.
 
 ### 4. Killer Features Usage
 
@@ -206,7 +206,7 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## Acknowledgments
 
 - OpenAI for their DALL-E and Whisper APIs.
-- BSC blockchain for seamless NFT integration.
+- Solana blockchain for seamless NFT integration.
 - Solana and Metaplex for NFT minting capabilities.
 - Arweave for permanent storage.
 - Supabase for vector database and backend services.
@@ -221,7 +221,7 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 - Python 3.9+
 - Node.js 16+
-- BSC CLI
+- Solana CLI + Metaplex
 - Metaplex CLI
 
 ### Backend Setup
@@ -242,7 +242,7 @@ Contributions are welcome! Please fork the repository and create a pull request 
    - Add the following keys:
      ```plaintext
      OPENAI_API_KEY=your_openai_api_key
-     BSC_PRIVATE_KEY=your_BSC_wallet_private_key
+     SOLANA_PRIVATE_KEY=your_solana_wallet_private_key
      ```
 
 4. Run the Flask backend:
@@ -271,7 +271,7 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ### Smart Contracts
 
 1. Deploy the `imageNFT` smart contract using your preferred idity toolchain.
-2. Ensure the BSC wallet is funded with  for transaction fees.
+2. Ensure the Solana wallet is funded with SOL for transaction fees.
 
 ---
 
@@ -286,7 +286,7 @@ Contributions are welcome! Please fork the repository and create a pull request 
 - View the transcribed text in real time.
 
 ### 3. Create NFTs
-- Use the NFT creation feature to mint AI-generated images on the BSC blockchain.
+- Use the NFT creation feature to mint AI-generated images on the Solana blockchain.
 
 ---
 
@@ -305,5 +305,5 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## Acknowledgments
 
 - OpenAI for their DALL-E and Whisper APIs.
-- BSC blockchain for seamless NFT integration.
+- Solana blockchain for seamless NFT integration.
 - The open-source community for providing excellent resources and tools.
